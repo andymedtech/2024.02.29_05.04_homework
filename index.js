@@ -15,9 +15,7 @@ function sayMyInfo(req, res, next) {
 
 function outConsole(name, lastname, age) {
   console.log(
-    `2Меня зовут ${name ? name : ""} ${
-      lastname ? lastname : ""
-    }, мне ${age} лет`
+    `Меня зовут ${name ? name : ""} ${lastname ? lastname : ""}, мне ${age} лет`
   );
 }
 
